@@ -1,0 +1,9 @@
+com\customnametag\command\NametagCommand.class
+com\customnametag\listener\PlayerListener.class
+com\customnametag\CustomNametagPlugin.class
+com\customnametag\hook\PlaceholderHook.class
+com\customnametag\hook\LuckPermsHook.class
+com\customnametag\manager\PlayerDataManager.class
+com\customnametag\manager\NametagManager.class
+com\customnametag\manager\PlayerDataManager$PlayerSettings.class
+com\customnametag\util\ColorUtil.class

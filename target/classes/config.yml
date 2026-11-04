@@ -1,0 +1,37 @@
+nametag:
+  default-group-name: "default"
+  default-rank-format: "&7{player}"
+  custom-rank-format: "%luckperms_prefix% &7▪ &7{player}"
+  ping-format: "&b{ping}ms"
+  alignment: "CENTER"
+  y-offset: 0.35
+  billboard: "CENTER"
+  see-through: false
+
+defaults:
+  background: "transparent"
+  text-shadow: false
+  visibility: true
+
+update-interval-ticks: 20
+
+messages:
+  prefix: "&8[&bCustomNametag&8] &r"
+  no-permission: "&cYou do not have permission to execute this command!"
+  only-players: "&cThis command can only be executed by players!"
+  reload-success: "&aConfiguration reloaded successfully!"
+  visibility-enabled: "&aNametag visibility set to &eENABLED&a."
+  visibility-disabled: "&cNametag visibility set to &eDISABLED&c."
+  background-set: "&aNametag background color set to &e{color}&a!"
+  background-transparent: "&aNametag background set to &eTRANSPARENT&a!"
+  background-invalid: "&cInvalid color! Examples: &e/nametag background transparent&c, &e/nametag background #FF0000&c, &e/nametag background red"
+  shadow-enabled: "&aNametag text shadow &eENABLED&a!"
+  shadow-disabled: "&cNametag text shadow &eDISABLED&c!"
+  help:
+    - "&8&m----------------------------------------"
+    - "&b&lCustomNametag &7by &fu5dt"
+    - " &e/nametag visibility &8- &7Toggle nametag visibility."
+    - " &e/nametag background <color/transparent/none> &8- &7Change background color."
+    - " &e/nametag textshadow &8- &7Toggle text shadow."
+    - " &e/nametag reload &8- &7Reload plugin configuration (Admin)."
+    - "&8&m----------------------------------------"

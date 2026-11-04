@@ -1,0 +1,16 @@
+name: CustomNametag
+version: 1.0.0
+main: com.customnametag.CustomNametagPlugin
+api-version: '1.21'
+description: Custom nametag plugin using Display Entities
+author: u5dt
+authors: [u5dt]
+softdepend: [LuckPerms, PlaceholderAPI]
+
+permissions:
+  customnametag.use:
+    description: Permission to use /nametag commands
+    default: true
+  customnametag.admin:
+    description: Admin permission to manage and reload CustomNametag
+    default: op
